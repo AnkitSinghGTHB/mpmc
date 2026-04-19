@@ -176,22 +176,22 @@ Examples: Intel 8051, Motorola 6811, Zilog Z8, PIC 16X
 ┌────────────────────────────────────┐ 7FH
 │                                    │
 │   Scratch Pad RAM                  │  80 locations (30H - 7FH)
-│   (General Purpose)               │  No special function
+│   (General Purpose)                │  No special function
 │                                    │
 ├────────────────────────────────────┤ 2FH
 │                                    │
-│   Bit-Addressable RAM             │  16 bytes (20H - 2FH)
+│   Bit-Addressable RAM              │  16 bytes (20H - 2FH)
 │   128 individually addressable     │  = 128 bits total
-│   bits (bit 00 to bit 7F)         │  Both bit AND byte addressable
+│   bits (bit 00 to bit 7F)          │  Both bit AND byte addressable
 │                                    │
 ├────────────────────────────────────┤ 1FH
-│   Register Bank 3  (18H - 1FH)    │  R0-R7
+│   Register Bank 3  (18H - 1FH)     │  R0-R7
 ├────────────────────────────────────┤ 17H
-│   Register Bank 2  (10H - 17H)    │  R0-R7
+│   Register Bank 2  (10H - 17H)     │  R0-R7
 ├────────────────────────────────────┤ 0FH
-│   Register Bank 1  (08H - 0FH)    │  R0-R7
+│   Register Bank 1  (08H - 0FH)     │  R0-R7
 ├────────────────────────────────────┤ 07H
-│   Register Bank 0  (00H - 07H)    │  R0-R7 ← DEFAULT
+│   Register Bank 0  (00H - 07H)     │  R0-R7 ← DEFAULT
 └────────────────────────────────────┘ 00H
 ```
 
